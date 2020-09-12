@@ -1,0 +1,208 @@
+@media only screen and (max-width:550px) {
+	.header{
+		display: inline-block;
+		height: auto;
+	}
+	.header .text-vertical-center a{
+		margin-bottom: 20px;
+	}
+	.text-vertical-center{
+		display: inline-block;
+	}
+	.text-vertical-center img{
+		max-width: 50%;
+	}
+	.text-vertical-center h3{
+		margin: 40px auto;
+		width: 70%;
+		font-size: 16pt; 
+	}
+	.text-vertical-center h3:first-child{
+		margin: 0;
+	}
+	section#about .col-lg-12{
+		width: 100%;
+	}
+	section#about .col-lg-12 h2{
+		display: inline-block;
+		width: 90%;
+		font-size: 20pt;
+	}
+	.lead{
+		margin-top: 10px;
+	}
+	.blk{
+		width: 100%;
+		margin: 20px auto;
+	}
+	.blk .service-item{
+		width: 50%;
+		display: inline-block;
+	}
+	.callout{
+		max-width: 100%;
+		width: 100%;
+		height: auto;
+	}
+	.callout .text-vertical-center{
+		width: 100%;
+	}
+	.callout .text-vertical-center h1{
+		width: 80%;
+		display: inline-block;
+		margin: 100px auto;
+		font-size: 30pt;
+	}
+	.blk2{
+		width: 50%;
+		display: inline-block;
+		text-align: center;
+		margin: 0;
+		line-height: 0;
+	}
+	.portfolio-item{
+		width: 100%;
+		display: inline-block;
+		margin: 0;
+	}
+	.portfolio{
+		padding: 25px 0;
+	}
+	.portfolio a{
+		margin-top: 25px;
+	}
+	.call-to-action{
+		padding: 50px 0 25px 0;
+	}
+	.call-to-action .btn{
+		margin: 25px auto;
+	}
+	aside.call-to-action.bg-primary h3{
+		margin: 0;
+		width: 90%;
+		display: inline-block;
+	}
+	footer{
+		width: 100%;
+	}
+	.list-inline li a > i{
+		font-size: 20pt;
+	}
+	.list-unstyled{
+		margin: 0;
+	}
+	hr.small{
+		margin: 5px auto;
+	}
+}
+@media only screen and (max-width: 760px) and (min-width: 560px) {
+	.header{
+		display: inline-block;
+		height: auto;
+	}
+	.header .text-vertical-center a{
+		margin-bottom: 20px;
+	}
+	.text-vertical-center{
+		display: inline-block;
+	}
+	.text-vertical-center img{
+		max-width: 50%;
+	}
+	.text-vertical-center h3{
+		margin: 40px auto;
+		width: 70%;
+		font-size: 16pt; 
+	}
+	.text-vertical-center h3:first-child{
+		margin: 0;
+	}
+	section#about .col-lg-12{
+		width: 100%;
+	}
+	section#about .col-lg-12 h2{
+		display: inline-block;
+		width: 90%;
+		font-size: 20pt;
+	}
+	.lead{
+		margin-top: 10px;
+	}
+	.callout{
+		max-width: 100%;
+		width: 100%;
+		height: auto;
+	}
+	.callout .text-vertical-center{
+		width: 100%;
+	}
+	.callout .text-vertical-center h1{
+		width: 80%;
+		display: inline-block;
+		margin: 100px auto;
+		font-size: 30pt;
+	}
+	.blk2{
+		width: 50%;
+		display: inline-block;
+		text-align: center;
+		margin: 0;
+		line-height: 0;
+	}
+	.portfolio-item{
+		width: 100%;
+		display: inline-block;
+		margin: 0;
+	}
+	.portfolio{
+		padding: 25px 0;
+	}
+	.portfolio a{
+		margin-top: 25px;
+	}
+	.call-to-action{
+		padding: 50px 0 25px 0;
+	}
+	.call-to-action .btn{
+		margin: 25px auto;
+	}
+	aside.call-to-action.bg-primary h3{
+		margin: 0;
+		width: 90%;
+		display: inline-block;
+	}
+	footer{
+		width: 100%;
+	}
+	.list-inline li a > i{
+		font-size: 20pt;
+	}
+	.list-unstyled{
+		margin: 0;
+	}
+	hr.small{
+		margin: 5px auto;
+	}
+	.blk{
+		width: 50%;
+	}
+	.blk .service-item{
+		width: 80%;
+		display: inline-block;
+		text-align: center;
+		margin: 15px auto;
+	}
+}
+@media only screen and (min-width:1024px) {
+
+}
+@media only screen and (min-width:1140px) {
+
+}
+@media only screen and (min-width:1280px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+}
