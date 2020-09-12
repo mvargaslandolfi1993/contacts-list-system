@@ -21,5 +21,7 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::post('/create-contact', [App\Http\Controllers\ContactController::class, 'createContact'])->name('contact');
-Route::post('/update-contact', [App\Http\Controllers\ContactController::class, 'updateContact']);
+Route::get('/update-contact/{id}', [App\Http\Controllers\ContactController::class, 'showContactForUpdate']);
+Route::post('/update-contact/', [App\Http\Controllers\ContactController::class, 'updateContact']);
 Route::get('/delete-contact/{id}', [App\Http\Controllers\ContactController::class, 'deleteContact']);
+Route::get('/search', [App\Http\Controllers\ContactController::class, 'getContactByName']);
